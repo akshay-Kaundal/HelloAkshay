@@ -5,7 +5,7 @@ http.createServer(function (request, response) {
    // HTTP Status: 200 : OK
    // Content Type: text/plain
    response.writeHead(200, {'Content-Type': 'text/plain'});
-   
+   console.log("Hitting server..");
    // Send the response body as "Hello World"
    response.end('Hello Akshays node app\n');
 }).listen(8081);
